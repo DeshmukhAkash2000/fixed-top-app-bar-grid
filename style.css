@@ -1,0 +1,36 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.main-container{
+    width: 80%;
+    height: 400px;
+    overflow: scroll;
+    border: 3px solid black;
+}
+.header{    
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: .5fr 5fr .5fr .5fr .5fr .5fr  ;
+    align-items: center;
+    color: black;
+    position: sticky;
+    top: 0;   
+}
+.fa{
+    color: black;
+    padding: 0.8rem;
+}
+.fa:hover{
+    background-color: rgb(150, 147, 147);
+    border-radius: 2rem;
+}
+
+@media only screen and (max-width:610px){
+    html{
+        font-size: 10px;
+    }
+}
